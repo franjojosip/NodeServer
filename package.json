@@ -1,0 +1,27 @@
+{
+  "name": "users-backend",
+  "version": "0.0.1",
+  "description": "REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franjojosip/NodeServer"
+  },
+  "keywords": [],
+  "author": "FJJukic",
+  "license": "ISC",
+  "homepage": "https://github.com/franjojosip/NodeServer",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.7.0",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6",
+    "require-all": "^3.0.0"
+  }
+}
